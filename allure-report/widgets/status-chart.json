@@ -1,0 +1,131 @@
+[ {
+  "uid" : "4b3d5f2af6186994",
+  "name" : "deleteAttachment",
+  "time" : {
+    "start" : 1562252107387,
+    "stop" : 1562252107567,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1510f9dabebf2f3e",
+  "name" : "copyCard",
+  "time" : {
+    "start" : 1562252107572,
+    "stop" : 1562252108437,
+    "duration" : 865
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca00a2afec9f920",
+  "name" : "openCard",
+  "time" : {
+    "start" : 1562252088017,
+    "stop" : 1562252091878,
+    "duration" : 3861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "844b82a47b2df57f",
+  "name" : "login",
+  "time" : {
+    "start" : 1562180504469,
+    "stop" : 1562180504475,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7898dabda7c1993c",
+  "name" : "addChecklist",
+  "time" : {
+    "start" : 1562252093086,
+    "stop" : 1562252094659,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b00892c867a34b8a",
+  "name" : "deleteChecklist",
+  "time" : {
+    "start" : 1562252094663,
+    "stop" : 1562252105942,
+    "duration" : 11279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4beb7b30c4c7673",
+  "name" : "addLabel",
+  "time" : {
+    "start" : 1562252092592,
+    "stop" : 1562252093080,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2f3e23dbb72ca5c",
+  "name" : "loginByAPI",
+  "time" : {
+    "start" : 1562179604136,
+    "stop" : 1562179612477,
+    "duration" : 8341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e214ee61d6a84237",
+  "name" : "moveCard",
+  "time" : {
+    "start" : 1562252087663,
+    "stop" : 1562252087671,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b16ebdd1fd37073a",
+  "name" : "addMember",
+  "time" : {
+    "start" : 1562252091891,
+    "stop" : 1562252092583,
+    "duration" : 692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d797565a1d172bfa",
+  "name" : "rename",
+  "time" : {
+    "start" : 1562252091884,
+    "stop" : 1562252091884,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5259e6b0d224500",
+  "name" : "loginByApi",
+  "time" : {
+    "start" : 1562179387164,
+    "stop" : 1562179390757,
+    "duration" : 3593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e522228af4a388d",
+  "name" : "attachLink",
+  "time" : {
+    "start" : 1562252105955,
+    "stop" : 1562252107384,
+    "duration" : 1429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

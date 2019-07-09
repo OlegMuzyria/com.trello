@@ -1,0 +1,126 @@
+{
+  "uid" : "9de7fd7156c73359",
+  "name" : "deleteChecklist",
+  "fullName" : "regression.CardTest.deleteChecklist",
+  "historyId" : "745b0b2b5a5979050794321f679664af",
+  "time" : {
+    "start" : 1562180257520,
+    "stop" : 1562180257521,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method CardTest.deleteChecklist()[pri:0, instance:regression.CardTest@9f116cc] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method CardTest.deleteChecklist()[pri:0, instance:regression.CardTest@9f116cc] depends on not successfully finished methods\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1562180240344,
+      "stop" : 1562180243436,
+      "duration" : 3092
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "prepareData",
+    "time" : {
+      "start" : 1562180243438,
+      "stop" : 1562180253687,
+      "duration" : 10249
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearData",
+    "time" : {
+      "start" : 1562180257546,
+      "stop" : 1562180257547,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1562180257547,
+      "stop" : 1562180257809,
+      "duration" : 262
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteChecklist"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "comtrello"
+  }, {
+    "name" : "subSuite",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "host",
+    "value" : "AdminPDFs-MacBook-Air-86.local"
+  }, {
+    "name" : "thread",
+    "value" : "28787@AdminPDFs-MacBook-Air-86.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9de7fd7156c73359.json",
+  "parameterValues" : [ ]
+}

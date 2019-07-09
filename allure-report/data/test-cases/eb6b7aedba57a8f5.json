@@ -1,0 +1,124 @@
+{
+  "uid" : "eb6b7aedba57a8f5",
+  "name" : "deleteAttachment",
+  "fullName" : "regression.CardTest.deleteAttachment",
+  "historyId" : "e71750e556521d99858e8617c0ac0f2f",
+  "time" : {
+    "start" : 1562180523367,
+    "stop" : 1562180523571,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1562180498534,
+      "stop" : 1562180500745,
+      "duration" : 2211
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "prepareData",
+    "time" : {
+      "start" : 1562180500747,
+      "stop" : 1562180504386,
+      "duration" : 3639
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearData",
+    "time" : {
+      "start" : 1562180524415,
+      "stop" : 1562180524639,
+      "duration" : 224
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1562180524640,
+      "stop" : 1562180524962,
+      "duration" : 322
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteAttachment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "comtrello"
+  }, {
+    "name" : "subSuite",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "host",
+    "value" : "AdminPDFs-MacBook-Air-86.local"
+  }, {
+    "name" : "thread",
+    "value" : "28870@AdminPDFs-MacBook-Air-86.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb6b7aedba57a8f5.json",
+  "parameterValues" : [ ]
+}

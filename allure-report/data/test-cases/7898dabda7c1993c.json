@@ -1,0 +1,152 @@
+{
+  "uid" : "7898dabda7c1993c",
+  "name" : "addChecklist",
+  "fullName" : "regression.CardTest.addChecklist",
+  "historyId" : "3a5b62daadfc694ce34916c706d816ac",
+  "time" : {
+    "start" : 1562252093086,
+    "stop" : 1562252094659,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1562252078413,
+      "stop" : 1562252082931,
+      "duration" : 4518
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "prepareData",
+    "time" : {
+      "start" : 1562252082933,
+      "stop" : 1562252087510,
+      "duration" : 4577
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearData",
+    "time" : {
+      "start" : 1562252108444,
+      "stop" : 1562252108776,
+      "duration" : 332
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1562252108777,
+      "stop" : 1562252109033,
+      "duration" : 256
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addChecklist"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "comtrello"
+  }, {
+    "name" : "subSuite",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "host",
+    "value" : "AdminPDFsAir86"
+  }, {
+    "name" : "thread",
+    "value" : "33439@AdminPDFsAir86.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a7036540824c371f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562180509297,
+        "stop" : 1562180510850,
+        "duration" : 1553
+      }
+    }, {
+      "uid" : "fade4ea046365f45",
+      "status" : "skipped",
+      "statusDetails" : "Method CardTest.addChecklist()[pri:0, instance:regression.CardTest@9f116cc] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1562180422583,
+        "stop" : 1562180422584,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "72cd02a6209c9763",
+      "status" : "skipped",
+      "statusDetails" : "Method CardTest.addChecklist()[pri:0, instance:regression.CardTest@9f116cc] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1562180257514,
+        "stop" : 1562180257515,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7898dabda7c1993c.json",
+  "parameterValues" : [ ]
+}

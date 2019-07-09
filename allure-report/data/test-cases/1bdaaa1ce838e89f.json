@@ -1,0 +1,124 @@
+{
+  "uid" : "1bdaaa1ce838e89f",
+  "name" : "moveCard",
+  "fullName" : "regression.CardTest.moveCard",
+  "historyId" : "cd6be59652730857644e27e669746fe8",
+  "time" : {
+    "start" : 1562180409524,
+    "stop" : 1562180409524,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1562180404141,
+      "stop" : 1562180406672,
+      "duration" : 2531
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "prepareData",
+    "time" : {
+      "start" : 1562180406673,
+      "stop" : 1562180409168,
+      "duration" : 2495
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearData",
+    "time" : {
+      "start" : 1562180422609,
+      "stop" : 1562180422815,
+      "duration" : 206
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1562180422816,
+      "stop" : 1562180422990,
+      "duration" : 174
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "moveCard"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "comtrello"
+  }, {
+    "name" : "subSuite",
+    "value" : "regression.CardTest"
+  }, {
+    "name" : "host",
+    "value" : "AdminPDFs-MacBook-Air-86.local"
+  }, {
+    "name" : "thread",
+    "value" : "28842@AdminPDFs-MacBook-Air-86.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bdaaa1ce838e89f.json",
+  "parameterValues" : [ ]
+}

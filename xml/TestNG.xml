@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trello">
+    <test name="Login">
+        <classes>
+            <class name="regression.LoginTest" />
+            <class name="regression.CardTest" />
+        </classes>
+    </test>
+    <test name="Card test">
+        <classes>
+            <class name="regression.CardTest" />
+        </classes>
+    </test>
+</suite>

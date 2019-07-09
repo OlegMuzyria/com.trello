@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot locate option with value: 5d19db3149379a0b8b401c81\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'AdminPDFsAir86', ip: 'fe80:0:0:0:c43:16c9:f5e2:4e70%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_201'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "copyCard",
+        "uid" : "1510f9dabebf2f3e",
+        "parentUid" : "491367245a36435a57f5059ecc23f1be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562252107572,
+          "stop" : 1562252108437,
+          "duration" : 865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "491367245a36435a57f5059ecc23f1be"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

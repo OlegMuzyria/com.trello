@@ -1,0 +1,121 @@
+{
+  "uid" : "c5259e6b0d224500",
+  "name" : "loginByApi",
+  "fullName" : "com.trello.api.TrelloAPILogin.loginByApi",
+  "historyId" : "4b95b4dae757ef801ec4c45478ef4195",
+  "time" : {
+    "start" : 1562179387164,
+    "stop" : 1562179390757,
+    "duration" : 3593
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1562179382942,
+      "stop" : 1562179386742,
+      "duration" : 3800
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1562179390973,
+      "stop" : 1562179391169,
+      "duration" : 196
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.trello.api.TrelloAPILogin"
+  }, {
+    "name" : "testClass",
+    "value" : "com.trello.api.TrelloAPILogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginByApi"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "comtrello"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.trello.api.TrelloAPILogin"
+  }, {
+    "name" : "host",
+    "value" : "AdminPDFs-MacBook-Air-86.local"
+  }, {
+    "name" : "thread",
+    "value" : "28602@AdminPDFs-MacBook-Air-86.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e872b84abf4b646c",
+      "status" : "broken",
+      "statusDetails" : "value == null",
+      "time" : {
+        "start" : 1562179058852,
+        "stop" : 1562179060585,
+        "duration" : 1733
+      }
+    }, {
+      "uid" : "100f7c21c6e0939a",
+      "status" : "broken",
+      "statusDetails" : "trello.com: nodename nor servname provided, or not known",
+      "time" : {
+        "start" : 1562177012002,
+        "stop" : 1562177012027,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "260f92f226900ae9",
+      "status" : "broken",
+      "statusDetails" : "trello.com: nodename nor servname provided, or not known",
+      "time" : {
+        "start" : 1562176833390,
+        "stop" : 1562176833490,
+        "duration" : 100
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5259e6b0d224500.json",
+  "parameterValues" : [ ]
+}

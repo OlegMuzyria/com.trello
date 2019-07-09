@@ -1,0 +1,741 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "AdminPDFs-MacBook-Air-86.local",
+    "children" : [ {
+      "name" : "28870@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "deleteAttachment",
+        "uid" : "eb6b7aedba57a8f5",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180523367,
+          "stop" : 1562180523571,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "rename",
+        "uid" : "9c7defb3a49a3a1d",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180504592,
+          "stop" : 1562180504592,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addLabel",
+        "uid" : "e8b34501bdc9cc85",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180508649,
+          "stop" : 1562180509294,
+          "duration" : 645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "attachLink",
+        "uid" : "1ffb33a1850e2bdf",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180521996,
+          "stop" : 1562180523362,
+          "duration" : 1366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "moveCard",
+        "uid" : "4472d4bcf91cf0e8",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180504586,
+          "stop" : 1562180504586,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addChecklist",
+        "uid" : "a7036540824c371f",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180509297,
+          "stop" : 1562180510850,
+          "duration" : 1553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "copyCard",
+        "uid" : "fe94b56b04c1b128",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562180523577,
+          "stop" : 1562180524412,
+          "duration" : 835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openCard",
+        "uid" : "d36ca72a661d8bad",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180504596,
+          "stop" : 1562180507687,
+          "duration" : 3091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addMember",
+        "uid" : "b23ea0bf5196e250",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180507690,
+          "stop" : 1562180508646,
+          "duration" : 956
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteChecklist",
+        "uid" : "7ef7474555354684",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180510859,
+          "stop" : 1562180521990,
+          "duration" : 11131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "844b82a47b2df57f",
+        "parentUid" : "2df8b56149bababb8262e800a79438e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180504469,
+          "stop" : 1562180504475,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2df8b56149bababb8262e800a79438e8"
+    }, {
+      "name" : "28842@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "rename",
+        "uid" : "811185c9b2964f45",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180409530,
+          "stop" : 1562180409530,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addLabel",
+        "uid" : "5f041c1eedb5c80a",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180422578,
+          "stop" : 1562180422578,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "attachLink",
+        "uid" : "e94bd9d5f9c15f4b",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180422593,
+          "stop" : 1562180422594,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteChecklist",
+        "uid" : "a881fa48efe8558b",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180422590,
+          "stop" : 1562180422591,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addMember",
+        "uid" : "77d592d568e89094",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180422571,
+          "stop" : 1562180422571,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteAttachment",
+        "uid" : "bc4080de16bfd7be",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180422599,
+          "stop" : 1562180422600,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "1369910a5f9c6907",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180409412,
+          "stop" : 1562180409419,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "moveCard",
+        "uid" : "1bdaaa1ce838e89f",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180409524,
+          "stop" : 1562180409524,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "copyCard",
+        "uid" : "5309403216d968cd",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180422607,
+          "stop" : 1562180422607,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addChecklist",
+        "uid" : "fade4ea046365f45",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180422583,
+          "stop" : 1562180422584,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openCard",
+        "uid" : "16d833079a878d88",
+        "parentUid" : "95fd291a5d02caadea88c96dfba0c4df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1562180409535,
+          "stop" : 1562180422562,
+          "duration" : 13027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95fd291a5d02caadea88c96dfba0c4df"
+    }, {
+      "name" : "28787@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "addLabel",
+        "uid" : "8fa591c00a08b387",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562180257108,
+          "stop" : 1562180257506,
+          "duration" : 398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addMember",
+        "uid" : "c5f9fe876ccfc352",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180256436,
+          "stop" : 1562180257104,
+          "duration" : 668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openCard",
+        "uid" : "52803924c65057df",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180254064,
+          "stop" : 1562180256423,
+          "duration" : 2359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addChecklist",
+        "uid" : "72cd02a6209c9763",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180257514,
+          "stop" : 1562180257515,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteChecklist",
+        "uid" : "9de7fd7156c73359",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180257520,
+          "stop" : 1562180257521,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "moveCard",
+        "uid" : "16d72d017c1316f2",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180254054,
+          "stop" : 1562180254054,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "3fe624c95d47d4f9",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180253950,
+          "stop" : 1562180253958,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteAttachment",
+        "uid" : "7c162595d0cda131",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180257536,
+          "stop" : 1562180257536,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "rename",
+        "uid" : "c4bd3391144ba7bf",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562180254060,
+          "stop" : 1562180254060,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "attachLink",
+        "uid" : "d4cb1cc7f243e0c7",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180257529,
+          "stop" : 1562180257531,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "copyCard",
+        "uid" : "e7b312f45f3126b3",
+        "parentUid" : "afb66416a36a31bdf5e4708034535105",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562180257540,
+          "stop" : 1562180257541,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "afb66416a36a31bdf5e4708034535105"
+    }, {
+      "name" : "28410@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByAPI",
+        "uid" : "371321a5d833c7f4",
+        "parentUid" : "c477d7559b9c3b0576429cdba157fe6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562178424177,
+          "stop" : 1562178424197,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c477d7559b9c3b0576429cdba157fe6a"
+    }, {
+      "name" : "28602@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByApi",
+        "uid" : "c5259e6b0d224500",
+        "parentUid" : "f111c104d4b08a77bb3b991dcc465e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562179387164,
+          "stop" : 1562179390757,
+          "duration" : 3593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f111c104d4b08a77bb3b991dcc465e88"
+    }, {
+      "name" : "28657@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByAPI",
+        "uid" : "bff70906c4ae1f6",
+        "parentUid" : "bc6c72380fd0abf90baf3618ee866afc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562179564145,
+          "stop" : 1562179568534,
+          "duration" : 4389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc6c72380fd0abf90baf3618ee866afc"
+    }, {
+      "name" : "28636@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByAPI",
+        "uid" : "108684875d24223b",
+        "parentUid" : "d261106a0198218ad979cf9dec1e3bb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562179507298,
+          "stop" : 1562179508097,
+          "duration" : 799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d261106a0198218ad979cf9dec1e3bb3"
+    }, {
+      "name" : "28177@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByApi",
+        "uid" : "260f92f226900ae9",
+        "parentUid" : "01e41fdd1f539f597a7d497b00ba3de9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562176833390,
+          "stop" : 1562176833490,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01e41fdd1f539f597a7d497b00ba3de9"
+    }, {
+      "name" : "28550@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByApi",
+        "uid" : "e872b84abf4b646c",
+        "parentUid" : "3dd8930b9036693838d7623bfa3519f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562179058852,
+          "stop" : 1562179060585,
+          "duration" : 1733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3dd8930b9036693838d7623bfa3519f3"
+    }, {
+      "name" : "28682@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByAPI",
+        "uid" : "f2f3e23dbb72ca5c",
+        "parentUid" : "7d43ab1580fc886dff309fefdee1fd83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562179604136,
+          "stop" : 1562179612477,
+          "duration" : 8341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d43ab1580fc886dff309fefdee1fd83"
+    }, {
+      "name" : "28229@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByApi",
+        "uid" : "100f7c21c6e0939a",
+        "parentUid" : "a09c0c7db080dd930d6678eb21967f47",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562177012002,
+          "stop" : 1562177012027,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a09c0c7db080dd930d6678eb21967f47"
+    }, {
+      "name" : "28524@AdminPDFs-MacBook-Air-86.local.main(1)",
+      "children" : [ {
+        "name" : "loginByAPI",
+        "uid" : "f7bff4e0d058312f",
+        "parentUid" : "34f105eb15f6afb5e0b2e3ba0eeae82b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562178999429,
+          "stop" : 1562179000388,
+          "duration" : 959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34f105eb15f6afb5e0b2e3ba0eeae82b"
+    } ],
+    "uid" : "1ed25292594a497895d5414fdf2a6258"
+  }, {
+    "name" : "AdminPDFsAir86",
+    "children" : [ {
+      "name" : "33439@AdminPDFsAir86.main(1)",
+      "children" : [ {
+        "name" : "addLabel",
+        "uid" : "a4beb7b30c4c7673",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252092592,
+          "stop" : 1562252093080,
+          "duration" : 488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteAttachment",
+        "uid" : "4b3d5f2af6186994",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252107387,
+          "stop" : 1562252107567,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "copyCard",
+        "uid" : "1510f9dabebf2f3e",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562252107572,
+          "stop" : 1562252108437,
+          "duration" : 865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteChecklist",
+        "uid" : "b00892c867a34b8a",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252094663,
+          "stop" : 1562252105942,
+          "duration" : 11279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "rename",
+        "uid" : "d797565a1d172bfa",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252091884,
+          "stop" : 1562252091884,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "moveCard",
+        "uid" : "e214ee61d6a84237",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252087663,
+          "stop" : 1562252087671,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addMember",
+        "uid" : "b16ebdd1fd37073a",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252091891,
+          "stop" : 1562252092583,
+          "duration" : 692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openCard",
+        "uid" : "6ca00a2afec9f920",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252088017,
+          "stop" : 1562252091878,
+          "duration" : 3861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "attachLink",
+        "uid" : "4e522228af4a388d",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252105955,
+          "stop" : 1562252107384,
+          "duration" : 1429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addChecklist",
+        "uid" : "7898dabda7c1993c",
+        "parentUid" : "38599c1f8ec220adc97c53bb7938b3ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562252093086,
+          "stop" : 1562252094659,
+          "duration" : 1573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38599c1f8ec220adc97c53bb7938b3ec"
+    } ],
+    "uid" : "dc38acf9eb5cfd9be1d0d95d177ff437"
+  } ]
+}

@@ -1,0 +1,250 @@
+{
+  "41a12e0b6b4e94624f07df9d2e0e9c1c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ca00a2afec9f920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252088017,
+        "stop" : 1562252091878,
+        "duration" : 3861
+      }
+    } ]
+  },
+  "120061e381e3a79d63cede4b74884d12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d797565a1d172bfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252091884,
+        "stop" : 1562252091884,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3a117e387d4d24bbf70cca463acd38af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2f3e23dbb72ca5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562179604136,
+        "stop" : 1562179612477,
+        "duration" : 8341
+      }
+    } ]
+  },
+  "4b95b4dae757ef801ec4c45478ef4195" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5259e6b0d224500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562179387164,
+        "stop" : 1562179390757,
+        "duration" : 3593
+      }
+    } ]
+  },
+  "b951b3994bac92733eade27047de5c42" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1510f9dabebf2f3e",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate option with value: 5d19db3149379a0b8b401c81\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'AdminPDFsAir86', ip: 'fe80:0:0:0:c43:16c9:f5e2:4e70%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_201'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1562252107572,
+        "stop" : 1562252108437,
+        "duration" : 865
+      }
+    } ]
+  },
+  "3a5b62daadfc694ce34916c706d816ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7898dabda7c1993c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252093086,
+        "stop" : 1562252094659,
+        "duration" : 1573
+      }
+    } ]
+  },
+  "41ab1ffa2b56e30a47b355ec8fc248e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "844b82a47b2df57f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562180504469,
+        "stop" : 1562180504475,
+        "duration" : 6
+      }
+    } ]
+  },
+  "1b9638c1b77fe42c0b6969114ccae4b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e522228af4a388d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252105955,
+        "stop" : 1562252107384,
+        "duration" : 1429
+      }
+    } ]
+  },
+  "e71750e556521d99858e8617c0ac0f2f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b3d5f2af6186994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252107387,
+        "stop" : 1562252107567,
+        "duration" : 180
+      }
+    } ]
+  },
+  "745b0b2b5a5979050794321f679664af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b00892c867a34b8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252094663,
+        "stop" : 1562252105942,
+        "duration" : 11279
+      }
+    } ]
+  },
+  "d4dade042191d1e9514dd5644d3cea63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4beb7b30c4c7673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252092592,
+        "stop" : 1562252093080,
+        "duration" : 488
+      }
+    } ]
+  },
+  "9579014abd7a48329aada2bd576fef21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b16ebdd1fd37073a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252091891,
+        "stop" : 1562252092583,
+        "duration" : 692
+      }
+    } ]
+  },
+  "cd6be59652730857644e27e669746fe8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e214ee61d6a84237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252087663,
+        "stop" : 1562252087671,
+        "duration" : 8
+      }
+    } ]
+  }
+}

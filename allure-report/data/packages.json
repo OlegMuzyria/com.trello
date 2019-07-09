@@ -1,0 +1,186 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.trello.api.TrelloAPILogin",
+    "children" : [ {
+      "name" : "loginByApi",
+      "uid" : "c5259e6b0d224500",
+      "parentUid" : "123b9a65f9b254885fa82d8c72eb8c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562179387164,
+        "stop" : 1562179390757,
+        "duration" : 3593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.trello.api.TrelloAPILogin"
+  }, {
+    "name" : "junk.TrelloAPILogin",
+    "children" : [ {
+      "name" : "loginByAPI",
+      "uid" : "f2f3e23dbb72ca5c",
+      "parentUid" : "0f6738712cddc13dbf89e0ccdc8e75e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562179604136,
+        "stop" : 1562179612477,
+        "duration" : 8341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "junk.TrelloAPILogin"
+  }, {
+    "name" : "regression.CardTest",
+    "children" : [ {
+      "name" : "login",
+      "uid" : "844b82a47b2df57f",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562180504469,
+        "stop" : 1562180504475,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "moveCard",
+      "uid" : "e214ee61d6a84237",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252087663,
+        "stop" : 1562252087671,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openCard",
+      "uid" : "6ca00a2afec9f920",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252088017,
+        "stop" : 1562252091878,
+        "duration" : 3861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "rename",
+      "uid" : "d797565a1d172bfa",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252091884,
+        "stop" : 1562252091884,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addMember",
+      "uid" : "b16ebdd1fd37073a",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252091891,
+        "stop" : 1562252092583,
+        "duration" : 692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addLabel",
+      "uid" : "a4beb7b30c4c7673",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252092592,
+        "stop" : 1562252093080,
+        "duration" : 488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addChecklist",
+      "uid" : "7898dabda7c1993c",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252093086,
+        "stop" : 1562252094659,
+        "duration" : 1573
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteChecklist",
+      "uid" : "b00892c867a34b8a",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252094663,
+        "stop" : 1562252105942,
+        "duration" : 11279
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "attachLink",
+      "uid" : "4e522228af4a388d",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252105955,
+        "stop" : 1562252107384,
+        "duration" : 1429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteAttachment",
+      "uid" : "4b3d5f2af6186994",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562252107387,
+        "stop" : 1562252107567,
+        "duration" : 180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "copyCard",
+      "uid" : "1510f9dabebf2f3e",
+      "parentUid" : "8695c71f9b8a25abb3690ff8a9e26fc2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1562252107572,
+        "stop" : 1562252108437,
+        "duration" : 865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "regression.CardTest"
+  } ]
+}
