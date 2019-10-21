@@ -2,7 +2,6 @@ package com.trello.ui.pages;
 
 import com.trello.ui.core.Constants;
 import com.trello.ui.core.Elem;
-import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
@@ -25,6 +24,8 @@ public class CardPage {
     public Elem confirmChecklistItemBtn = new Elem (By.cssSelector(".js-add-checklist-item"), "Add item button");
     public Elem checklistItemCheckbox = new Elem (By.cssSelector(".js-toggle-checklist-item"), "Checkbox for checklist item");
     public Elem checklistItemMenu = new Elem (By.cssSelector(".checklist-item-menu"));
+    public Elem ConvertToCardchecklistItemMenu = new Elem (By.cssSelector(".js-convert-to-card"));
+    public Elem checklistItemRow = new Elem (By.cssSelector(".checklist-item-row"));
     public Elem deleteChecklistItemBtn = new Elem (By.cssSelector(".js-delete"), "Delete checklist item button");
     public Elem confirmDeleteBtn = new Elem (By.cssSelector(".js-confirm"), "Delete checklist confirm pop up");
     public Elem linkInput = new Elem (By.cssSelector("#addLink"), "Link input");
@@ -83,12 +84,18 @@ public class CardPage {
         Assert.assertTrue(checklistItem.isPresent(), "Check list is not added");
     }
 
-    @Step
-    public void deleteChecklist (){
-        //Actions actions = new Actions(driver());
+    public void convertCheckListItemToCard (){
+        checklistItemMenu.click();
+        ConvertToCardchecklistItemMenu.click();
+        Assert.assertTrue(!checklistItemRow.isPresent());
 
+    }
+
+    public void deleteChecklist (){
+        addChecklistBtn.click();
+        checkListItemInput.type("Check list item to delete");
+        confirmChecklistItemBtn.click();
         checklistItemCheckbox.click();
-        //actions.moveToElement(driver().findElement(By.cssSelector())).click();
         checklistItemMenu.click();
         deleteChecklistItemBtn.click();
         deleteCheckListBtn.click();
@@ -96,7 +103,8 @@ public class CardPage {
         Assert.assertTrue(!checkListItemInput.isPresent(), "Checklist is not deleted");
 
     }
-    @Step
+
+
     public void addAttachment () {
         attachmentBtn.click();
         linkInput.type("Link test");
@@ -109,7 +117,7 @@ public class CardPage {
     public void deleteAttachment (){
         deleteAttachmentBtn.click();
         confirmDeleteBtn.click();
-        //Assert.assertTrue(!attachmentPreview.isPresent(), "Attachment is not deleted");
+        Assert.assertTrue(!attachmentPreview.isPresent(), "Attachment is not deleted");
     }
 
     public void copyCard (String boardId, String listId) throws InterruptedException {

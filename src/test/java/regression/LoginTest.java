@@ -4,9 +4,10 @@ import com.trello.ui.core.BrowserFactory;
 import com.trello.ui.pages.BoardsPage;
 import com.trello.ui.pages.CardPage;
 import com.trello.ui.pages.LoginPage;
-import io.qameta.allure.Stories;
 import io.qameta.allure.Story;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 public class LoginTest extends BrowserFactory {
 
@@ -16,11 +17,15 @@ public class LoginTest extends BrowserFactory {
 
     @Story("Login with valid user")
     @Test
-    public void login () throws InterruptedException{
+    public void login() throws InterruptedException {
 
         loginPage.open();
         loginPage.login("olegmuzyria89@gmail.com", "Maxmotives95");
-        boardsPage.openBoard("test");
     }
 
+    @Test(dependsOnMethods = "login")
+    public void logout() throws IOException {
+        loginPage.logout();
+    }
 }
+

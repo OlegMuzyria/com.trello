@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static com.trello.ui.core.BrowserFactory.driver;
 import static com.trello.ui.core.BrowserFactory.getWebDriverWait;
@@ -52,4 +53,5 @@ public class Elem {
         Select select = new Select(find());
         select.selectByValue(value);
     }
+
 }
